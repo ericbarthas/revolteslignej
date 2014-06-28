@@ -1,0 +1,124 @@
+@media screen {
+body {
+background-color:#ffffff
+}
+
+div {
+margin : auto;
+padding : 0px;
+border : none;
+}
+
+div.conteneur {
+border: 0px solid red;
+margin : auto;
+width : 100%;
+align : center;
+text-align : center;
+}
+
+div#DivCalendar {
+border : none; 
+width:200px;
+height:250px; 
+z-index:1; 
+display:none; 
+Top:1px;
+left:1px;
+}
+
+table, tr, td {
+border : 0px solid lightgray;
+}
+
+
+td.regul {
+padding : 18px;
+width : 180px
+}
+
+td.contrib {
+padding : 0px
+}
+
+.gare {
+border : none;
+margin : auto;
+width : 80 %;
+}
+
+.stat {
+float : left;
+width : 280px;
+}
+
+.heure {
+width : 35px;
+size : 5
+}
+
+.regul {
+font-family : verdana;
+font-size : 30px;
+font-weight : bold;
+line-height : 15px
+}
+
+font#rouge {
+color : red;
+}
+
+font#vert {
+color : green;
+}
+
+.en_cours {
+color : black;
+font-style : bold
+}
+.inactif {
+color : lightgray;
+font-style : italic
+}
+
+table.restit {
+border-collapse : collapse;
+text-align : center
+}
+
+/*marges intérieures padding : top right bottom left si 4; vertical horizontal si 2*/
+/*marges extérieures margin : top right bottom left*/
+table.restit tr td {
+margin-top : 0px;
+margin-bottom : 0px;
+margin-right : 0px;
+margin-left : 0px;
+padding : 10px 5px 10px 5px;
+border-bottom: 1px solid red;
+border-top: 1px solid red;
+border-left : 0px;
+border-right : 0px;
+border-spacing: 0px;
+}
+
+.bouton {
+width:100%;
+min-width:100%;
+max-width:100%;
+height:auto;
+font-size:60px;
+}
+
+.recherche_ligne {
+margin:auto;
+width:49%;
+float:left;
+}
+
+.recherche {
+margin:auto;
+width:100%;
+clear : both;
+}
+
+}
